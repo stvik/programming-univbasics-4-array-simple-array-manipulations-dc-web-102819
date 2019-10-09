@@ -13,3 +13,15 @@ end
 def pop_with_args(array)
   array.pop(2)
 end
+
+def using_shift(array)
+  array.shift
+end
+
+def shift_wiht_args(array)
+  array.shift(2)
+end
+
+def using_concat(array1, array2)
+  array1.concat(array2)
+end
